@@ -1,0 +1,32 @@
+.invert {
+    display: flex;
+    justify-content: space-between;
+    width:  1000px;
+    border-radius: 4px;
+    box-shadow: 1px 0.5px 0px 1px rgb(209, 209, 218);
+}
+
+.invert-inner {
+    display: flex;
+}
+
+.button-create {
+    display:flex;
+    height: 40px;
+    margin: 30px 10px 0px 0px;
+}
+
+.period-button {
+    display: inline-flex !important;
+    justify-content: center !important; 
+    align-items: center !important;
+    width: 56px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    color: black !important;
+    background-color: white !important;
+}
+
+.period-button:hover {
+    background-color: gainsboro !important;
+}
